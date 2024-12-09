@@ -237,7 +237,7 @@ def is_valid_email(email):
 ## ************* Testing Auth **********************
 #st.image('https://logos-world.net/wp-content/uploads/2022/02/Truist-Emblem.png', width=80)
 #st.title("UDD Data Loader")
-with open(r'C:\UDD\config.yaml') as file:
+with open(r'config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 authenticator = stauth.Authenticate(
