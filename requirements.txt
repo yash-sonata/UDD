@@ -4,3 +4,4 @@ PyYAML==6.0.2
 PyYAML==6.0.2
 streamlit==1.40.2
 streamlit_authenticator==0.4.1
+mysql-connector-python==9.1.0
